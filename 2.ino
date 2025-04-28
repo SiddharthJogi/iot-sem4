@@ -2,7 +2,7 @@
 #include <DHT.h>
 #include "ThingSpeak.h"
 
-#define DHTPIN D3
+#define DHTPIN D4
 #define DHTTYPE DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
